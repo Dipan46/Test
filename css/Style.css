@@ -1,0 +1,297 @@
+body {
+    display: grid;
+    padding: .1rem;
+    background-color: #DDDDDD;
+    border: 2.5px solid;
+}
+
+
+
+/* head */
+#head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* image */
+.img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img img {
+    width: 30%;
+}
+
+/* Brand Name */
+.brand h1 {
+    font-size: 3.3rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1422px) {
+    .brand h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .brand h1 {
+        font-size: 3rem;
+    }
+}
+
+/* Contact */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.adrs h2 {
+    margin: 0.1rem;
+}
+
+.phn h3 {
+    margin: 0.1rem;
+}
+
+/* from */
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 1st box */
+#box1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.container label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 25%;
+    padding-left: 0.5rem;
+}
+
+.fbox {
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    background-color: #EFEFEF;
+}
+
+/* 2nd Box */
+#box2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1rem;
+}
+
+/* 3rd box */
+#box3 {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1.5fr 1fr 1.5fr 2fr 5fr;
+}
+
+#box3 .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#box3 .fbox {
+    width: 98.9%;
+}
+
+#box3 .container label {
+    width: auto;
+    height: 30%;
+    margin: auto;
+}
+
+/* 4th Box */
+#box4 {
+    display: grid;
+    grid-template-columns: 43.9% 5.9% 8.8% 11.8% 29%;
+}
+
+#box4 label {
+    display: flex;
+    margin: auto;
+    height: 30%;
+    align-items: center;
+}
+
+#box4 input {
+    width: 100%;
+}
+
+/* 5th Box */
+#box5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* 6th Box */
+#box6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#box6 .container {
+    width: 99.3%;
+}
+
+#box6 .lft input {
+    width: 97%;
+}
+
+#box6 .lft {
+    display: grid;
+    grid-auto-rows: .5fr 1fr .5fr 0fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+#box6 .lft div {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#box6 .f1 {
+    height: 100%;
+    font-size: 3rem;
+}
+
+#box6 .r_lft {
+    display: grid;
+    width: 12%;
+}
+
+#box6 .r_lft {
+    display: grid;
+    width: 12%;
+}
+
+#box6 .r_mid1 {
+    display: grid;
+    width: 16%;
+}
+
+#box6 .r_mid2 {
+    display: grid;
+    width: 100%;
+}
+
+#box6 .r_rit {
+    display: grid;
+    width: 100%;
+}
+
+
+#box6 .rit .container input {
+    width: 99%;
+}
+
+.rit .container label {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 16% 0;
+}
+
+#box6 .r_lft {
+    display: grid;
+    grid-template-rows: 1fr 2.3fr;
+}
+
+#box6 .container_b {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#box6 .container_b input {
+    width: 99%;
+}
+
+/* 7th Box */
+#box7 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+}
+
+#box7 .btm {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: end;
+}
+
+#box7 .btm .container {
+    flex-direction: column;
+}
+
+#box7 .fbox {
+    width: 99%;
+}
+
+/* 8th Box */
+#box8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#box8 .top {
+    text-align: center;
+}
+
+#box8 .lft {
+    display: grid;
+}
+
+#box8 .rit .fbox {
+    height: 97%;
+    width: 99%;
+    font-size: 3rem;
+}
+
+/* 9th Box */
+#box9 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#box9 .container {
+    display: grid;
+}
+
+#box9 .container label {
+    width: 100%;
+    justify-content: center;
+}
+
+#box9 .fbox {
+    height: 8rem;
+    font-size: 3rem;
+    width: 99%;
+}
+
+/* 10th Box */
+#box10 {
+    text-align: center;
+}

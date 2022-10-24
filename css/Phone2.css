@@ -1,0 +1,49 @@
+.img img {
+    width: 50%;
+}
+
+.brand h1 {
+    font-size: 2rem;
+}
+
+#form section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.adrs h2 {
+    font-size: 1rem;
+}
+
+.phn h3 {
+    font-size: .6rem;
+}
+
+#box5 {
+    margin-top: 2.5rem;
+}
+
+#box6 .rit .container input {
+    width: 97%;
+}
+
+#box6 .lft input {
+    width: 98%;
+}
+
+#box6 .container_b input {
+    width: 98%;
+}
+
+#box8 .rit .fbox {
+    height: 97%;
+    width: 98%;
+    font-size: 3rem;
+}
+
+#box9 .fbox {
+    height: 8rem;
+    font-size: 3rem;
+    width: 98%;
+}

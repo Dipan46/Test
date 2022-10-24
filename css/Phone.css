@@ -1,0 +1,14 @@
+.adrs h2 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.phn h3 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+#box4 input {
+    border: 1px solid black;
+    width: 100%;
+}
