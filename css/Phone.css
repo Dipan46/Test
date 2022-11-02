@@ -1,14 +1,16 @@
-.adrs h2 {
-    margin: 0;
-    font-size: 1.4rem;
+.img img {
+    width: 50%;
 }
 
-.phn h3 {
-    margin: 0;
-    font-size: 1rem;
+.brand h1 {
+    font-size: 2rem;
 }
 
-#box4 input {
-    border: 1px solid black;
-    width: 100%;
+#form {
+    padding: 2rem;
+}
+
+#form section {
+    margin: 2rem 0rem 4rem 0rem;
+    padding: 2rem;
 }
