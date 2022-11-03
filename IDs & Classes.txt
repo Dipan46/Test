@@ -1,0 +1,17 @@
+IDs-
+navbar - Navigation bar
+contact - address & ph no
+form - Total form section
+main - Form body
+title - Section title
+box1, 2 - Input boxes
+btn = Submit & reset button area
+adrs - Footer content
+
+Classes- 
+img - Navbar logos
+brand - Navbar title
+container - Individual label & input set
+fbox - Input box
+fs - Columns of multi column sections
+btn - Submit & reset buttton
