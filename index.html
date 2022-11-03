@@ -8,7 +8,7 @@
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 900px)" href="css/phone2.css">
-    <link rel="stylesheet" media="screen and (max-width: 580px)" href="css/phone.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="css/phone.css">
     <!-- css -->
     <title>Invoice</title>
 </head>
@@ -27,6 +27,7 @@
         </div>
     </nav>
     <!-- Navigation -->
+
     <!-- Contact -->
     <section id="contact">
         <div class="adrs">
@@ -37,11 +38,27 @@
         </div>
     </section>
     <!-- Contact -->
+
     <!-- Form -->
     <section id="form">
-        <!-- 1st box -->
-        <section id="pd">
-            <form class="form" action="#">
+        <form action="" id="main">
+            <!-- 1st box -->
+            <h1 id="title">INVOICE DETAIL</h1>
+            <section id="box1">
+                <div class="container">
+                    <label for="CODE">INVOICE NUMBER</label>
+                    <input class="fbox" type="">
+                </div>
+                <div class="container">
+                    <label for="CODE">INVOICE DATE</label>
+                    <input class="fbox" type="number">
+                </div>
+            </section>
+            <!-- 1st box -->
+
+            <!-- 2nd box -->
+            <h1 id="title">Customer DETAIL</h1>
+            <section id="box2">
                 <div class="fs">
                     <div class="container">
                         <label for="CODE">NAME</label>
@@ -78,13 +95,11 @@
                         <input class="fbox" type="">
                     </div>
                 </div>
-            </form>
-        </section>
-        <!-- 1st box -->
+            </section>
+            <!-- 2nd box -->
 
-        <!-- 2nd box -->
-        <section id="pd">
-            <form class="form" action="#">
+            <!-- 3re box -->
+            <section id="box3">
                 <div class="container">
                     <label for="CODE">ORDER</label>
                     <input class="fbox" type="">
@@ -97,13 +112,13 @@
                     <label for="CODE">GOLD RATE</label>
                     <input class="fbox" type="number">
                 </div>
-            </form>
-        </section>
-        <!-- 2nd box -->
+            </section>
+            <!-- 3rd box -->
 
-        <!-- 3nd box -->
+            <!-- 4th box -->
 
-        <!-- 3nd box -->
+            <!-- 4th box -->
+        </form>
     </section>
     <!-- Form -->
 </body>

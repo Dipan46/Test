@@ -68,29 +68,11 @@ body {
 }
 
 /* form */
-#pd {
-    background-color: #140000d6;
-    box-shadow: 0 0 28px black;
-    color: #fdf2a1;
-    margin: 3rem 5rem;
-    border-radius: 3rem;
-    padding: 1.5rem 0rem;
-}
-
-.form {
+#form {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-
-/* input */
-.container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 0rem;
-    font-size: 1.5rem;
 }
 
 .fbox {
@@ -99,4 +81,79 @@ body {
     border-radius: 8px;
     text-align: center;
     padding: 0.3rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    font-size: 1.3rem;
+}
+
+#title {
+    margin-left: 9%;
+    font-size: 2.5rem;
+}
+
+/* Box1 */
+#box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #140000d6;
+    box-shadow: 0 0 28px black;
+    color: #fdf2a1;
+    margin: 3rem 5rem;
+    border-radius: 3rem;
+    padding: 1.5rem 0rem;
+}
+
+#box1 .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 42%;
+}
+
+/* Box2 */
+#box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #140000d6;
+    box-shadow: 0 0 28px black;
+    color: #fdf2a1;
+    margin: 3rem 5rem;
+    border-radius: 3rem;
+    padding: 1.5rem 0rem;
+}
+
+#box2 .container {
+    flex-direction: row;
+}
+
+.fs {
+    width: 50%;
+}
+
+/* Box3 */
+#box3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #140000d6;
+    box-shadow: 0 0 28px black;
+    color: #fdf2a1;
+    margin: 3rem 5rem;
+    border-radius: 3rem;
+    padding: 1.5rem 0rem;
+}
+
+#box3 .container {
+    width: 26%;
+}
+
+#box3 .fbox {
+    width: 80%;
 }
