@@ -21,6 +21,7 @@
 
 #box1 .container {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 123%;
 }
@@ -42,14 +43,16 @@
     display: contents;
 }
 
-#box3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#btn {
+    display: contents;
 }
 
-#box3 .container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+.btn {
+    background-color: #140000d6;
+    box-shadow: 0 0 28px black;
+    color: #fdf2a1;
+    padding: 1rem 0;
+    width: 80%;
+    margin: 1rem 2rem;
+    margin-left: 11%;
 }

@@ -25,6 +25,7 @@ body {
 .img {
     display: flex;
     justify-content: space-around;
+    width: 30%;
 }
 
 .img img {
@@ -33,15 +34,11 @@ body {
 
 /* Brand Name */
 .brand h1 {
+    text-align: center;
     font-size: 4rem;
     color: #240000;
 }
 
-@media screen and (max-width: 1422px) {
-    .brand h1 {
-        font-size: 3rem;
-    }
-}
 
 @media screen and (max-width: 820px) {
     .brand h1 {
@@ -94,7 +91,7 @@ body {
 
 #title {
     margin-left: 9%;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 /* Box1 */
@@ -138,22 +135,34 @@ body {
 }
 
 /* Box3 */
-#box3 {
+
+
+/* Button */
+#btn {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
     background-color: #140000d6;
     box-shadow: 0 0 28px black;
     color: #fdf2a1;
-    margin: 3rem 5rem;
-    border-radius: 3rem;
-    padding: 1.5rem 0rem;
+    padding: 1rem 0;
+    width: 13%;
+    margin: 0rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
 }
 
-#box3 .container {
-    width: 26%;
-}
-
-#box3 .fbox {
-    width: 80%;
+/* Footer */
+#adrs {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1rem;
+    background-color: #140000d6;
+    box-shadow: 0 0 28px black;
+    color: #fdf2a1;
 }
